@@ -29,5 +29,8 @@
   "devDependencies": {
     "fs-extra": "^7.0.1",
     "typescript": "^3.4.5"
+  },
+  "bin": {
+    "archiver": "./bin/index.js"
   }
 }
