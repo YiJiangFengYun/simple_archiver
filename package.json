@@ -1,0 +1,31 @@
+{
+  "name": "simple_archiver",
+  "version": "0.0.0",
+  "description": "A tool to archiver simply a specified folder.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build_development": "tsc --build tsconfig.json",
+    "build_production": "tsc --build tsconfig.dist.json",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.fireant.com:dev_tools/simple_archiver.git"
+  },
+  "keywords": [
+    "tool",
+    "archiver"
+  ],
+  "author": "luoyujiang",
+  "license": "ISC",
+  "dependencies": {
+    "@types/archiver": "^2.1.3",
+    "@types/command-line-args": "^5.0.0",
+    "@types/node": "^11.13.7",
+    "archiver": "^3.0.0",
+    "command-line-args": "^5.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
+}
