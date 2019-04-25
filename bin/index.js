@@ -16,12 +16,12 @@ const options = commandLineArgs(optionDefinitions);
 
 achiver.archive(options)
 .then(() => {
-    log.info("Succeeded to archive the folder.");
+    console.info("Succeeded to archive the folder.");
     process.exit(0);
 })
 .catch((err) => {
-    log.error(`Failed to archive the folder.`);
-    log.error(err);
+    console.error(`Failed to archive the folder.`);
+    console.error(err);
     process.exit(1);
 });
 
