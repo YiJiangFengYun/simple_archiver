@@ -1,12 +1,7 @@
 var archiver = require("../build/index");
 var path = require("path");
-var fsExtra = require("fs-extra");
-
 
 Promise.resolve()
-.then(() => {
-    return fsExtra.emptyDir(path.join(__dirname, "output"));
-})
 .then(() =>{
     return archiver.archive({
         src: path.join(__dirname, "files"),
