@@ -1,6 +1,6 @@
 {
   "name": "simple_archiver",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A tool to archiver simply a specified folder.",
   "main": "dist/index.js",
   "scripts": {
